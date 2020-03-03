@@ -1,0 +1,43 @@
+
+/*Website CSS for blossomTree*/
+body, html {
+    height: 100%;
+}
+.bg { 
+	/*bACKGROUND iMAGE css. Do not touch*/
+    /* The image used */
+    background-image: url('../img/Collage.png');
+
+    /* Full height */
+    max-width: 100%;
+    width: 100%;
+    margin: 0px ;
+   	padding: 0%;
+   	border: none;
+   	height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+/*overlay for bg photos*/
+.mask{
+  /*Overlay Class*/
+   /* Full height */
+    height: 100%; 
+    padding: 0%;
+    /*Full Widith*/
+    width: 100%;
+    margin: 0px ;
+}
+.rgba-blue-slight {
+  background-color: rgba(33, 150, 243, 0.1); }
+
+.rgba-blue-light {
+  background-color: rgba(33, 150, 243, 0.3); }
+
+
+.rgba-blue-strong {
+  background-color: rgba(13,40,73,0.7); }
+/*Blue*/
