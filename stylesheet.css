@@ -1,0 +1,203 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav {
+    font-size: 18pt; 
+}
+header, footer {
+    background-color: #333; 
+    color: #ddd; 
+    padding: 20px; 
+    text-align: center; 
+}
+#companyFont {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 28pt; 
+    padding-left: 41pt; 
+}
+#mainJub, .overlay {
+    background: linear-gradient(rgba(0, 0, 53, 0.8),rgba(1, 1, 53, 0.8)), 
+        url(assets/test.jpg) no-repeat center center fixed;
+        height: auto; 
+        display:block;
+        background-size: cover;  
+    overflow: hidden;  
+}
+#signUp , .overlay {
+    background: linear-gradient(rgba(0, 0, 53, 0.8),rgba(1, 1, 53, 0.8)), 
+        url(assets/test2.jpg) no-repeat center center fixed;
+        height: auto; 
+        display:block;
+        background-size: cover;  
+    overflow: hidden;  
+}
+.img-overlay{
+     position: relative;
+    max-width: 80%; 
+}
+header {
+    padding-top: 10%; 
+}
+h2{
+    text-align: center; 
+    text-shadow: #333; 
+}
+#specialHeading {
+    font-size: 45pt; 
+    padding: 0%;
+    text-align: inline;
+    display: inline;
+}
+.fa-building, .fa-hands-helping, .fa-chart-bar {
+    font-size: 90pt; 
+    padding-top: 10pt;  
+    width: 100%; 
+    text-align: center; 
+}
+.fa-database, .fa-tablet-alt, .fa-sitemap, .fa-vial{
+    font-size: 90pt; 
+    padding-top: 10pt;  
+    width: 100%; 
+    text-align: center; 
+}
+h1 {
+    text-align: center; 
+}
+footer{
+    position: bottom;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+
+li:hover{
+    text-decoration: underline;
+    text-decoration-color:#6495ed;
+}
+ul{
+  list-style-type: none;
+}
+#icon:hover{
+  text-decoration: none;
+}
+/*CSS classes used in quote html */
+#formBg{
+     background: linear-gradient(rgba(0, 0, 53, 0.8),rgba(1, 1, 53, 0.8)), 
+        url(assets/Collage.png) no-repeat center center fixed;
+        height: auto; 
+        display:block;
+        background-size: cover;  
+    overflow: hidden;  
+}
+/*This is a id card*/
+#card_back{
+    margin:5%;
+    padding:5%;
+}
+form{
+    margin:3%;
+    padding:5%;
+}
+.card-text{
+  font-size: 18px;
+}
+/*animation*/
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  filter: none !important;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+  filter: none !important;
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    filter: none !important;
+    width: 100%; /* Full-width */
+    height: 15px;
+    border-radius: 5px;   /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    -moz-appearance: none;
+    filter: none !important;
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+ @media screen and (max-width: 992px) {
+  #footer {
+     margin-left:30%;
+         }
+} 

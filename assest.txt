@@ -1,0 +1,35 @@
+#2066BB - the blue
+
+#55AA29 - the green
+
+Icon List
+
+Social Media Links
+facebook
+https://fontawesome.com/icons/facebook-square?style=brands
+Twitter
+https://fontawesome.com/icons/twitter-square?style=brands
+LinkIn
+https://fontawesome.com/icons/linkedin?style=brands
+
+Services Icon
+
+Mobile Dev
+https://fontawesome.com/icons/mobile-alt?style=solid
+Desktop Dev
+https://fontawesome.com/icons/desktop?style=solid
+Database 
+https://fontawesome.com/icons/database?style=solid
+
+Languages
+
+HTML
+https://fontawesome.com/icons/html5?style=brands
+CSS
+https://fontawesome.com/icons/css3-alt?style=brands
+JS
+https://fontawesome.com/icons/js-square?style=brands
+VUE
+https://fontawesome.com/icons/vuejs?style=brands
+MISSING
+bOOSTRAP, SWIFT, XCODE
